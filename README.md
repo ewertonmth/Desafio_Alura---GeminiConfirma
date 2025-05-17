@@ -32,7 +32,7 @@ Isso garante o funcionamento correto dos módulos e evita erros de referência o
 ## ⚙️ Requisitos
 
 -Python 3.x(Google Colab)
--Conta no Google Cloud com API Key e CSE ID
+-Conta no Google Cloud com CSE ID
 -Gemini API Key (Google AI Studio)
 
 ---
@@ -47,7 +47,6 @@ Isso garante o funcionamento correto dos módulos e evita erros de referência o
 2. Configure suas chaves:
    ```python
    genai.configure(api_key="SUA_API_GEMINI")
-   GOOGLE_API_KEY = "SUA_API_GOOGLE"
    GOOGLE_CSE_ID = "SEU_CSE_ID"
    ```
 
